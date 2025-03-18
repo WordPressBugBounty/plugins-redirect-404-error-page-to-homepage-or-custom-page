@@ -14,7 +14,7 @@
  * Plugin Name:       Redirect 404 Error Page to Homepage or Custom Page with Logs
  * Plugin URI:        https://wordpress.org/plugins/redirect-404-error-page-to-homepage-or-custom-page/
  * Description:       Easily redirect 404 error page to homepage or Custom page URL with 404 logs
- * Version:           1.8.9
+ * Version:           1.8.10
  * Author:            WPVibes
  * Author URI:        https://wpvibes.com/
  * License:           GPL-3.0+
@@ -42,7 +42,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 if ( ! function_exists( 'Redirect_404_Error_Page_To_Homepage_Or_Custom_Page\run_Redirect_404_Error_Page_To_Homepage_Or_Custom_Page' ) ) {
 	define( 'REDIRECT_404_ERROR_PAGE_TO_HOMEPAGE_OR_CUSTOM_PAGE_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-	define( 'REDIRECT_404_ERROR_PAGE_TO_HOMEPAGE_OR_CUSTOM_PAGE_PLUGIN_VERSION', '1.8.9' );
+	define( 'REDIRECT_404_ERROR_PAGE_TO_HOMEPAGE_OR_CUSTOM_PAGE_PLUGIN_VERSION', '1.8.10' );
 	define( 'REDIRECT_404_ERROR_PAGE_TO_HOMEPAGE_OR_CUSTOM_PAGE_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
 
 // Include the autoloader so we can dynamically include the classes.
@@ -90,6 +90,6 @@ if ( ! function_exists( 'Redirect_404_Error_Page_To_Homepage_Or_Custom_Page\run_
 	die( esc_html__( 'Cannot execute as the plugin already exists, if you have another version installed deactivate that and try again', 'redirect-404-error-page-to-homepage-or-custom-page' ) );
 }
 function www_un() {
-	error_log( 'llllll test uninstall' );
+	error_log( 'uninstall' );
 }
 

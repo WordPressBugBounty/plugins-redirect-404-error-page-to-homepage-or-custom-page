@@ -3,8 +3,8 @@ Contributors: wpvibes
 Tags: 404 error, 404 page, redirect, redirect 404, redirection, 404, 301, 302, SEO, permalink, page not found, homepage, server error
 Requires at least: 5.0
 Requires PHP: 7.4
-Tested up to: 6.4
-Stable tag: 1.8.9
+Tested up to: 6.7
+Stable tag: 1.8.10
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -41,6 +41,9 @@ Follow the standard procedure:
 
 
 == Changelog ==
+
+= 1.8.10 = 
+* Tested compatibility with latest WordPress version 
 
 = 1.8.9 = 
 * Tested compatibility with latest WordPress version 
